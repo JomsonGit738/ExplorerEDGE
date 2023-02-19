@@ -55,16 +55,18 @@ header {
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(255, 118, 0, 0.8)
-    ;
+    background-color: rgba(255, 118, 0, 0.8);
 }
 /* body-> Background Image*/
 body {
+    margin: 0;
+    padding: 0;
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4)),url(./images/travel101.jpg);
     background-color: rgba(36, 37, 42, 0.2);
     background-size: cover;
     background-image: center;
     background-attachment: fixed; 
+    background-position: center;
     /* background fixing */
     background-repeat: no-repeat;
 }
